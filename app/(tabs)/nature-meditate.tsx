@@ -28,7 +28,7 @@ const NatureMeditate = () => {
                 showsVerticalScrollIndicator={false}
                 renderItem={({ item }) => (
                     <Pressable
-                        onPress={() => router.push(`/meditate/${item.id}`)}
+                        onPress={() => router.push("/")}
                     >
                         className="h-48 my-3 rounded-md overflow-hidden"
 

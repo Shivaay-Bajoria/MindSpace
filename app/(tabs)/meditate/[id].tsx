@@ -84,7 +84,7 @@ const Meditate  = () => {
   const handleAdjustDuration = () => {
     if (isMeditating) toggleMeditationSessionStatus();
 
-    router.push("/(modal)/adjust-meditation-duration")
+    router.push("/");
   }
 
   const formattedTimeMinutes = String(
